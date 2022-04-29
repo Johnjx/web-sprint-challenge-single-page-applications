@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <section className="cta">
         <h2>Your favorite food, delivered while coding</h2>
-        <button data-test-id="order-pizza" onClick={routeToForm}>Pizza?</button>
+        <button id="order-pizza" onClick={routeToForm}>Pizza?</button>
       </section>
     )
 
